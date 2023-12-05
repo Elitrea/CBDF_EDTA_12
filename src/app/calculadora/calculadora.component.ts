@@ -33,4 +33,10 @@ export class CalculadoraComponent {
       this.resultado = this.numero1 / this.numero2;
     }
   }
+
+  iniciarCampos(){
+    this.resultado = 0;
+    this.numero1 = 0;
+    this.numero2 = 0;
+  }
 }
